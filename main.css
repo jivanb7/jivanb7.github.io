@@ -1,12 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    padding: 20px;
 }
 
-h2 {
-    
+
+h3 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 35px;
+    color: white;
+    margin-left: 60px;
 }
-/* 
-https://anulikajoy.com/
-https://line-cv.com/contact
-https://codepen.io/Lindeun/pen/WgaYLw */
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    align-items: center;
+    margin-right: 60px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Sans MS, Comic Sans, cursive;
+    color: white;
+    font-size: large;
+}
+
+.body-info {
+    border: 2px dashed red;
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.hi-welcome {
+    display: flex;
+    margin-left: 50px;
+}
+
+.hi {
+    font-family: Calina Regular; 
+    font-weight: 200;
+    font-size: 150px;
+    align-self: center;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.name-info {
+    border: 2px dashed blue;
+    margin-left: 50px;
+    font-size: large;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
