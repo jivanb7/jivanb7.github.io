@@ -34,10 +34,9 @@ a {
 }
 
 .body-info {
-    border: 2px dashed red;
-    margin-top: 90px;
     margin-left: 50px;
     margin-right: 50px;
+    padding-bottom: 50px;
 }
 
 .hi-welcome {
@@ -58,8 +57,20 @@ img {
 }
 
 .name-info {
-    border: 2px dashed blue;
-    margin-left: 50px;
     font-size: large;
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
+
+p {
+    margin-left: 50px;
+}
+
+.name-paragraph {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 25px;
+}
+
+.name-all {
+
+}
+
