@@ -71,7 +71,7 @@ p {
 }
 
 .name-all {
-    padding-right: 800px;
+    padding-right: 300px;
 }
 
 .pic {
@@ -100,12 +100,13 @@ p {
     }
 
     .wel {
-        height: 275px;
+        height: 200%;
         width: 275px;
     }
 
     .hi-welcome {
         margin-left: 5px;
+        height: 100px;
     }
 
     .all-body-info {
@@ -114,6 +115,7 @@ p {
     }
 
     .pic {
+        margin-top: 70px;
         margin-left: 0;
         height: 250px;
         width: 350px;
@@ -130,4 +132,7 @@ p {
         margin-left: 0;
     }
 
+    h2 {
+        margin-top: 100px;
+    }
 }
